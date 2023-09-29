@@ -1,0 +1,32 @@
+* { 
+    padding:0;
+    margin:0; 
+    box-sizing:border-box; 
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    display: flex;
+    gap:24px;
+    flex-direction:column;
+    align-items:center;
+    color:#FFF;
+    background-color: #0A3248;
+    height: 100vh;
+    width: 100vw;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    background-color:red;
+    border-radius:50%;
+}
+
+.red    { background-color:red; }
+.yellow { background-color:yellow; }
+.green  { background-color:green; }
